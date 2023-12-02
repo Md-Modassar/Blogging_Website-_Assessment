@@ -24,9 +24,11 @@ Blog Model:-
 }
 
 Author model:-
-create two api one for create and loging
-this is end point create : - localhost:3000/user/signup
-this is end point create : - localhost:3000/user/login
+                  create two api one for create and loging
+                  
+                 this is end point create : - localhost:3000/user/signup
+               
+                 this is end point create : - localhost:3000/user/login
 
 
 Blog Model:
