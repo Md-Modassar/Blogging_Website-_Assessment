@@ -1,6 +1,7 @@
 # Blogging_Website-_Assessment
 
-Author Model:-
+ Models:-
+ Author
 {
 
  Name: { mandatory },
