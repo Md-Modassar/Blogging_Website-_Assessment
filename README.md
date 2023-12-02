@@ -1,12 +1,17 @@
 # Blogging_Website-_Assessment
 
-Author Model{
- Name:{mandatory}
- Email:{mandatory}
- Password:{mandatory}
+Author Model:-
+{
+
+ Name:{mandatory},
+ Email:{mandatory},
+ Password:{mandatory},
+ 
 }
 
-Blog Model{
+Blog Model:-
+{
+
  title:{mandatory},
  photo:{mandatory},
  authorname:{mandatory},
@@ -14,6 +19,7 @@ Blog Model{
  tags:{array of string},
  category:{string,mandatory}
  commite:{array of string}
+ 
 }
 
 Author model:-
