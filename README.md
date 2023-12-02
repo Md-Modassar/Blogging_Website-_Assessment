@@ -65,15 +65,21 @@ post model.
 
 
 Security:
-● Hash the author's name before storing it in the database.
-● Implement a simple authentication mechanism using a secret token.
-Documentation
+      ● Hash the author's name before storing it in the database.
+      
+     ● Implement a simple authentication mechanism using a secret token.
+     
+
 
 ● instructions on how to run the project locally.
- -first clone this repo-git clone <repo-link> enter
- -then type enter file(repo-file) cd Blogging_Website_Assessment
- -then type- npm i 
- - for running you type->node index.js or npx nodemon index.js 
+
+           -first clone this repo-git clone <repo-link> enter
+           
+           -then type enter file(repo-file) cd Blogging_Website_Assessment
+           
+           -then type- npm i 
+           
+            - for running you type->node index.js or npx nodemon index.js 
  
 
  
