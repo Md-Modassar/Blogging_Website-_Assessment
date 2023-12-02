@@ -14,30 +14,39 @@
  
           }
 
-Blog Model:-
-{
-
- title:{mandatory},
- photo:{mandatory},
- authorname:{mandatory},
- discription:{mandatory},
- tags:{array of string},
- category:{string,mandatory}
- commite:{array of string}
- 
-}
-
-Author model:-
+          Author model:-
                   create two api one for create and loging
                   
                  this is end point create : - localhost:3000/user/signup
                
                  this is end point create : - localhost:3000/user/login
 
+          Blog Model:-
+          
+           {
 
-   Blog Model:
+              title:{mandatory},
+              
+              photo:{mandatory},
+              
+              authorname:{mandatory},
+              
+              discription:{mandatory},
+              
+              tags:{array of string},
+              
+              category:{string,mandatory}
+              
+              commite:{array of string}
+ 
+         }
 
-CRUD Operations:
+
+
+
+
+
+ CRUD Operations:
 ● Implement CRUD (Create, Read, Update, Delete) operations for the blog
 post model.
 
