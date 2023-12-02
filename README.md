@@ -3,9 +3,9 @@
 Author Model:-
 {
 
- Name:{mandatory},
- Email:{mandatory},
- Password:{mandatory},
+ Name: { mandatory },
+ Email: { mandatory },
+ Password: { mandatory },
  
 }
 
