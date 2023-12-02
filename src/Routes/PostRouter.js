@@ -5,8 +5,8 @@ const {authentication,autherization}=require("../middelware/auth")
 
 router.post("/createpost",createpost);
 router.get("/getallpost",getallPost)
-router.get("/getpost/:postId",authentication,autherization,getPostById)
-router.put("/updatepost/:postId",updatapost)
+router.get("/getpost/:postId",getPostById)
+router.put("/updatepost/:postId",authentication,autherization,updatapost)
 router.delete("/deletepost/:postId",deletePost)
 
 module.exports=router;

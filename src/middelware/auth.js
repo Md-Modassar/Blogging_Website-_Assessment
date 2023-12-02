@@ -8,7 +8,8 @@ const objectId = mongoose.Types.ObjectId
 
 exports.authentication=async(req,res,next)=>{
     try{ 
-        let token=req.headers.authentication
+        console.log("hi authen")
+        let token=req.headers.authorization
         if(!token) return res.status(400).send({status:false,message:"Token is mandatory"})
         token=token.split(" ")
        jwt.verify(token[1],"this is my key",(error,decode)=>{
@@ -24,7 +25,7 @@ exports.authentication=async(req,res,next)=>{
 
 exports.autherization=async(req,res,next)=>{
     try{
-       
+        console.log("hi authriz")
         let postid=req.params.postId
         if (!objectId.isValid(postid)) { return res.status(400).send({ status: false, msg: "please enter valide userid" }) }
         const post=await PostModel.findById(postid)
@@ -32,9 +33,9 @@ exports.autherization=async(req,res,next)=>{
 
         const id=req.id
         const user=await UserModel.findById(id)
-        const salt=await bcrypt.genSalt(10)
-        const secauth=await bcrypt.hash(user.Name,salt)
-        let isauthrize = await bcrypt.compare(secauth,authorname);
+        // const salt=await bcrypt.genSalt(10)
+        // const secauth=await bcrypt.hash(user.Name,salt)
+        let isauthrize= await bcrypt.compare(user.Name,authorname);
         if(isauthrize)
           {
             next()
