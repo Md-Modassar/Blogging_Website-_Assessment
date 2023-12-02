@@ -2,17 +2,17 @@
 
  Models:-
  
- Author
+       Author
  
-{
+          {
 
- Name: { mandatory },
+             Name: { mandatory },
  
- Email: { mandatory },
+             Email: { mandatory },
  
- Password: { mandatory },
+            Password: { mandatory },
  
-}
+          }
 
 Blog Model:-
 {
@@ -35,19 +35,24 @@ Author model:-
                  this is end point create : - localhost:3000/user/login
 
 
-Blog Model:
+   Blog Model:
+
 CRUD Operations:
 ● Implement CRUD (Create, Read, Update, Delete) operations for the blog
 post model.
 
 
-● Create API endpoints for:-
+      ● Create API endpoints for:-
 
-● Creating a new blog post:-localhost:3000/post/createpost
-● Retrieving blog posts:-localhost:3000/post/getallpost
-● Retrieving a specific blog post by ID:- localhost:3000/post/getpost/postId
-● Updating a blog post by ID:-localhost:3000/post/updatepost/postId
-● Deleting a blog post by ID:-localhost:3000/deletepost/postId
+           ● Creating a new blog post:-localhost:3000/post/createpost
+           
+           ● Retrieving blog posts:-localhost:3000/post/getallpost
+           
+           ● Retrieving a specific blog post by ID:- localhost:3000/post/getpost/postId
+           
+           ● Updating a blog post by ID:-localhost:3000/post/updatepost/postId
+           
+           ● Deleting a blog post by ID:-localhost:3000/deletepost/postId
 
 
 Security:
