@@ -5,7 +5,9 @@
 {
 
  Name: { mandatory },
+ 
  Email: { mandatory },
+ 
  Password: { mandatory },
  
 }
