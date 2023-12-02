@@ -1,24 +1,24 @@
 # Blogging_Website-_Assessment
 
-       This Blog site where authors came sign hisself and login ,
-       
-      after that he can publish  his post(photo) with tags discription and orther author show his post 
+This Blog site where authors came sign hisself and login ,
+
+after that he can publish  his post(photo) with tags discription and orther author show his post 
       
-      and read discription and pass comment on his post ,
+and read discription and pass comment on his post ,
 
-      and author only can manipulate his post what ever he do change to post can do his authroze to do delete.
+ and author only can manipulate his post what ever he do change to post can do his authroze to do delete.
 
 
-  In this project i used same depedency
+ In this project i used same depedency
   
-              express:-this one of them most usefull it is node js web application framework that provides a robust set of features for web and mobile applications. 
+express:-this one of them most usefull it is node js web application framework that provides a robust set of features for web and mobile applications. 
       It offers APIs with HTTP utility meth.
       
-        multer:-multer is depencey use for image uploading,
+multer:-multer is depencey use for image uploading,
 
-        bcrypt:-this is depency most use full with the help of you hash any thing easly
+ bcrypt:-this is depency most use full with the help of you hash any thing easly
 
-               just type:- npm i bcrypt
+just type:- npm i bcrypt
 
        
 
