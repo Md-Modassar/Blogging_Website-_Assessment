@@ -33,8 +33,6 @@ exports.autherization=async(req,res,next)=>{
 
         const id=req.id
         const user=await UserModel.findById(id)
-        // const salt=await bcrypt.genSalt(10)
-        // const secauth=await bcrypt.hash(user.Name,salt)
         let isauthrize= await bcrypt.compare(user.Name,authorname);
         if(isauthrize)
           {
