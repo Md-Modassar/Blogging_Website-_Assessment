@@ -13,15 +13,15 @@
             Password: { mandatory },
  
           }
-
-          Author model:-
+          
+ Author model:-
                   create two api one for create and loging
                   
                  this is end point create : - localhost:3000/user/signup
                
                  this is end point create : - localhost:3000/user/login
-
-          Blog Model:-
+                 
+ Blog Model:-
           
            {
 
